@@ -11,7 +11,7 @@ Run these commands:
 Start the `out.rbxl` place.
 
 ## Results (Last Updated 3/10/2024)
-These results were taken in Roblox Studio using Zap v0.6.2 and ByteNet v0.4.0.
+These results were taken in Roblox Studio using Zap v0.6.2 and ByteNet v0.4.3.
 
 The FPS and Network Send (KB/s) are eyeballed averages.
 
@@ -24,7 +24,7 @@ Network Send (KB/s) comes from the `Overall (KB/s)` in the `Outgoing` section of
 |--|--|--|
 | Roblox  | 18 | 36000 |
 | Zap | 53 | 18.8 |
-| ByteNet | 23 | 8.2 |
+| ByteNet | 37.5 | 14.4 |
 
 
 ### StructOfNumbers
@@ -32,4 +32,4 @@ Network Send (KB/s) comes from the `Overall (KB/s)` in the `Outgoing` section of
 |--|--|--|
 | Roblox  | 5 | 49500 |
 | Zap | 36 | 40 |
-| ByteNet | 29 | 31 |
+| ByteNet | 39 | 41 |
