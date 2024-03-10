@@ -19,7 +19,7 @@ FPS comes from the `Ctrl + Shift + F5` menu.
 
 Network Send (KB/s) comes from the `Overall (KB/s)` in the `Outgoing` section of the `Ctrl + Shift + F3` menu.
 
-### Booleans
+### [Booleans](https://github.com/nezuo/roblox-serde-benchmarks/blob/main/src/client/Benches/Booleans.lua)
 | Mode | FPS | Network Send (KB/s) |
 |--|--|--|
 | Roblox  | 18 | 36000 |
@@ -27,7 +27,7 @@ Network Send (KB/s) comes from the `Overall (KB/s)` in the `Outgoing` section of
 | ByteNet | 37.5 | 14.4 |
 
 
-### StructOfNumbers
+### [StructOfNumbers](https://github.com/nezuo/roblox-serde-benchmarks/blob/main/src/client/Benches/StructOfNumbers.lua)
 | Mode | FPS | Network Send (KB/s) |
 |--|--|--|
 | Roblox  | 5 | 49500 |
