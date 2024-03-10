@@ -22,7 +22,7 @@ Network Send (KB/s) comes from the `Overall (KB/s)` in the `Outgoing` section of
 ### Booleans
 | Mode | FPS | Network Send (KB/s) |
 |--|--|--|
-| Roblox  | 18 | 37,000 |
+| Roblox  | 18 | 37000 |
 | Zap | 53 | 7.8 |
 | ByteNet | 23 | 3.5 |
 
@@ -30,6 +30,6 @@ Network Send (KB/s) comes from the `Overall (KB/s)` in the `Outgoing` section of
 ### StructOfNumbers
 | Mode | FPS | Network Send (KB/s) |
 |--|--|--|
-| Roblox  | 5 | 49,000 |
+| Roblox  | 5 | 49000 |
 | Zap | 36 | 8.1 |
 | ByteNet | 29 | 3.98 |
