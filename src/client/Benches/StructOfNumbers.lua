@@ -1,4 +1,4 @@
-local random = Random.new()
+local random = Random.new(908248)
 
 local array = {}
 
