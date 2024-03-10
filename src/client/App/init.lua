@@ -106,6 +106,36 @@ local function ModesList(selectMode)
 	})
 end
 
+local function BenchmarkMode(selectBenchmarkMode)
+	local benchmarkMode = Value("FPS")
+
+	return New("Frame")({
+		AnchorPoint = Vector2.new(1, 1),
+		Position = UDim2.new(1, -620, 1, 0),
+		Size = UDim2.new(0, 300, 1, -43),
+
+		BackgroundTransparency = 1,
+
+		[Children] = New("TextButton")({
+			Size = UDim2.new(1, 0, 0, 50),
+
+			Text = Computed(function()
+				return `Benchmark Mode: {benchmarkMode:get()}`
+			end),
+
+			[OnEvent("Activated")] = function()
+				if benchmarkMode:get() == "FPS" then
+					benchmarkMode:set("Bandwidth")
+					selectBenchmarkMode("Bandwidth")
+				else
+					benchmarkMode:set("FPS")
+					selectBenchmarkMode("FPS")
+				end
+			end,
+		}),
+	})
+end
+
 local function App(props)
 	return New("ScreenGui")({
 		Parent = Players.LocalPlayer.PlayerGui,
@@ -113,6 +143,7 @@ local function App(props)
 		[Children] = {
 			ModesList(props.selectMode),
 			BenchesList(props.benchModules, props.selectBench),
+			BenchmarkMode(props.selectBenchmarkMode),
 		},
 	})
 end
