@@ -1,0 +1,10 @@
+[package]
+name = "private/private"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+private = true
+
+[dependencies]
+ByteNet = "ffrostflame/bytenet@0.4.0"
+Fusion = "elttob/fusion@0.2.0"

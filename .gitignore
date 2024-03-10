@@ -1,0 +1,12 @@
+*.rbxl
+*.rbxlx
+
+*.rbxl.lock
+*.rbxlx.lock
+
+/sourcemap.json
+
+/Packages
+
+src/client/ZapClient.lua
+src/server/ZapServer.lua
