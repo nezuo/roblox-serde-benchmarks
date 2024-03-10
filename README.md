@@ -19,17 +19,18 @@ FPS comes from the `Ctrl + Shift + F5` menu.
 
 Network Send (KB/s) comes from the `Overall (KB/s)` in the `Outgoing` section of the `Ctrl + Shift + F3` menu.
 
+Network Send is benchmarked by firing remotes at a constant rate of once per second so that FPS doesn't affect the results.
+
 ### [Booleans](https://github.com/nezuo/roblox-serde-benchmarks/blob/main/src/client/Benches/Booleans.lua)
 | Mode | FPS | Network Send (KB/s) |
 |--|--|--|
-| Roblox  | 18 | 36000 |
-| Zap | 53 | 18.8 |
-| ByteNet | 37.5 | 14.4 |
-
+| Roblox  | 18 | 2150 |
+| Zap | 53 | 0.76 |
+| ByteNet | 37.5 | 0.76 |
 
 ### [StructOfNumbers](https://github.com/nezuo/roblox-serde-benchmarks/blob/main/src/client/Benches/StructOfNumbers.lua)
 | Mode | FPS | Network Send (KB/s) |
 |--|--|--|
-| Roblox  | 5 | 49500 |
-| Zap | 36 | 40 |
-| ByteNet | 39 | 41 |
+| Roblox  | 5 | 8500 |
+| Zap | 36 | 1.43 |
+| ByteNet | 39 | 1.43 |

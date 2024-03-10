@@ -41,6 +41,12 @@
             "ZAP_UNRELIABLE": {
                 "$className": "UnreliableRemoteEvent"
             }
+        },
+
+        "StarterPlayer": {
+            "$properties": {
+                "EnableMouseLockOption": false
+            }
         }
     }
 }
