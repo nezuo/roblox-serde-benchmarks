@@ -6,7 +6,7 @@ event Booleans = {
     from: Client,
     type: Reliable,
     call: SingleAsync,
-    data: boolean[],
+    data: boolean[1000],
 }
 
 event StructOfNumbers = {
@@ -20,5 +20,5 @@ event StructOfNumbers = {
         z: i8,
         orientation: i16,
         animation: u8,
-    }[]
+    }[100]
 }
