@@ -11,9 +11,6 @@
         },
 
         "ServerScriptService": {
-            "Server": {
-                "$path": "src/server"
-            },
             "runServer": {
                 "$path": "src/runServer.server.lua"
             }
