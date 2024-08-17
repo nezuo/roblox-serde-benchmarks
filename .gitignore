@@ -8,5 +8,8 @@
 
 /Packages
 
-src/client/ZapClient.lua
-src/server/ZapServer.lua
+src/client/ZapClient.luau
+src/server/ZapServer.luau
+
+src/client/BlinkClient.luau
+src/server/BlinkServer.luau

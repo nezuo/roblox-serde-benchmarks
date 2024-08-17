@@ -10,6 +10,10 @@ local requiredByteNetAt = os.clock()
 require(ReplicatedStorage.Shared.ByteNetPackets)
 print("Required ByteNet in ", os.clock() - requiredByteNetAt)
 
+local requiredBlinkAt = os.clock()
+require(ReplicatedStorage.Client.BlinkClient)
+print("Required Blink in ", os.clock() - requiredBlinkAt)
+
 local App = require(ReplicatedStorage.Client.App)
 local Modes = require(ReplicatedStorage.Client.Modes)
 

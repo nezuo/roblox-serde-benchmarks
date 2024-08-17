@@ -9,10 +9,10 @@ dependencies = []
 
 [[package]]
 name = "ffrostflame/bytenet"
-version = "0.4.3"
+version = "0.4.6"
 dependencies = []
 
 [[package]]
 name = "private/private"
 version = "0.1.0"
-dependencies = [["ByteNet", "ffrostflame/bytenet@0.4.3"], ["Fusion", "elttob/fusion@0.2.0"]]
+dependencies = [["ByteNet", "ffrostflame/bytenet@0.4.6"], ["Fusion", "elttob/fusion@0.2.0"]]

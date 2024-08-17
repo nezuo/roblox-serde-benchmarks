@@ -1,5 +1,5 @@
-opt server_output = "src/server/ZapServer.lua"
-opt client_output = "src/client/ZapClient.lua"
+opt server_output = "src/server/ZapServer.luau"
+opt client_output = "src/client/ZapClient.luau"
 opt casing = "camelCase"
 
 event Booleans = {

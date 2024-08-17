@@ -10,8 +10,8 @@ Run these commands:
 
 Start the `out.rbxl` place.
 
-## Results (Last Updated 3/10/2024)
-These results were taken in Roblox Studio using Zap v0.6.2 and ByteNet v0.4.3.
+## Results (Last Updated 8/16/2024)
+These results were taken in Roblox Studio using Zap v0.6.12, ByteNet v0.4.6, and Blink v0.14.6.
 
 The FPS and Network Send (KB/s) are eyeballed averages.
 
@@ -24,13 +24,15 @@ Network Send is benchmarked by firing remotes at a constant rate of once per sec
 ### [Booleans](https://github.com/nezuo/roblox-serde-benchmarks/blob/main/src/client/Benches/Booleans.lua)
 | Mode | FPS | Network Send (KB/s) |
 |--|--|--|
-| Roblox  | 18 | 2150 |
-| Zap | 53 | 0.76 |
-| ByteNet | 37.5 | 0.76 |
+| Roblox | 19 | 2100 |
+| Zap | 48 | 0.8 |
+| ByteNet | 36.5 | 0.8 |
+| Blink | 71 | 0.8 |
 
 ### [StructOfNumbers](https://github.com/nezuo/roblox-serde-benchmarks/blob/main/src/client/Benches/StructOfNumbers.lua)
 | Mode | FPS | Network Send (KB/s) |
 |--|--|--|
-| Roblox  | 5 | 8500 |
-| Zap | 36 | 1.43 |
-| ByteNet | 39 | 1.43 |
+| Roblox  | 6 | 9500 |
+| Zap | 36 | 1.5 |
+| ByteNet | 37.5 | 1.5 |
+| Blink | 38 | 1.6 |

@@ -1,0 +1,3 @@
+[tools]
+zap = "red-blox/zap@0.6.12"
+blink = "1Axen/blink@0.14.6"

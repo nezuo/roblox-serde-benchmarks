@@ -1,0 +1,24 @@
+option ServerOutput = "src/server/BlinkServer.luau"
+option ClientOutput = "src/client/BlinkClient.luau"
+option Casing = Camel
+
+event Booleans {
+    From: Client,
+    Type: Reliable,
+    Call: SingleAsync,
+    Data: boolean[],
+}
+
+event StructOfNumbers {
+    From: Client,
+    Type: Reliable,
+    Call: SingleAsync,
+    Data: struct {
+        id: u16,
+        x: i8,
+        y: i16,
+        z: i8,
+        orientation: i16,
+        animation: u8,
+    }[]
+}

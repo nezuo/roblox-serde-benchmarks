@@ -11,8 +11,11 @@
         },
 
         "ServerScriptService": {
+            "Server": {
+                "$path": "src/server"
+            },
             "runServer": {
-                "$path": "src/runServer.server.lua"
+                "$path": "src/runServer.server.luau"
             }
         },
 
@@ -24,7 +27,7 @@
                 "$path": "src/shared"
             },
             "runClient": {
-                "$path": "src/runClient.client.lua"
+                "$path": "src/runClient.client.luau"
             },
             "Packages": {
                 "$path": "Packages"

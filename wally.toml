@@ -6,5 +6,5 @@ realm = "shared"
 private = true
 
 [dependencies]
-ByteNet = "ffrostflame/bytenet@0.4.3"
+ByteNet = "ffrostflame/bytenet@0.4.6"
 Fusion = "elttob/fusion@0.2.0"
